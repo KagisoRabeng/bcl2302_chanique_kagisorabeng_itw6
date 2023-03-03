@@ -6,6 +6,11 @@
     background-color: burlywood;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #headerone {
     background-color: #FBD686;
     padding-bottom: 40px;
@@ -75,15 +80,21 @@ h3 {
 
 .education {
     flex: 1;
+    margin: 0px;
+    padding-right: 100px;
 
 }
 
 .experience {
     flex: 1;
+    position: relative;
+    top: 60px;
 }
 
 .skills {
     flex: 1;
+    position: relative;
+    top: 60px;
 }
 
 .section {
