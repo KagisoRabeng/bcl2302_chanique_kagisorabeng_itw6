@@ -89,3 +89,17 @@ h3 {
 .section {
     display: flex;
 }
+
+.aside {
+    width: 200px;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+}
+
+ul {
+    list-style-type: circle;
+}
